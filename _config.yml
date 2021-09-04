@@ -4,7 +4,7 @@ email: oi@dump.tec.br
 source: .
 destination: ./public
 baseurl: ""
-url: https://dump.tec.br/
+url: https://dump.tec.br
 srcurl: "/"
 lang: pt-BR
 locale: pt_BR
