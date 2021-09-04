@@ -1,20 +1,18 @@
-# The Awesome Jekyll Template
+# Dump Tecnologia
 
-###### Um template Jekyll completo com Bootstrap para Github Pages!
+###### Criamos soluções impressionantes em tecnologia que ajudarão a sua empresa a se destacar.
 
 ---
 
-Este é um template completo para geração de sites estáticos, desenvolvendo paginas dinamicamente com [Jekyll](https://jekyllrb.com/). 
-Desenvolva sites completos e dinâmicos, totalmente estáticos mesmo tendo contagem de visualizações, comentários ou posts.
+O repositório das fontes do site da Dump Tecnologia!
 
-[Demostração](https://jekyll-bootstrap.douglasmedeiros.dev/)
+> [dump.tec.br](https://dump.tec.br)
 
 ## Recursos
 
-Configuração prontas que você vai encontrar nesse template:
-
 - [Jekyll](https://jekyllrb.com/) com sua versão compatível com o Github Pages;
-- [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) com compilador [Sass](https://getbootstrap.com/docs/5.0/getting-started/build-tools/#sass);
+- [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) com
+  compilador [Sass](https://getbootstrap.com/docs/5.0/getting-started/build-tools/#sass);
 - [Jekyll Minifier](https://github.com/Mendeo/jekyll-minifier) para compilação de HTML, CSS e JS;
 - Efeitos de uma Landing Page com [AOS library](https://michalsnik.github.io/aos/)
 - Configurações [globais](./_config.yml) de variáveis, diretórios e arquivos;
@@ -26,7 +24,8 @@ Configuração prontas que você vai encontrar nesse template:
 
 ## Começando
 
-Esse template já totalmente configurado, basta fazer o clone dele na sua maquina e executar o script para subir o servidor. Por padrão o servidor ira subir nas portas 80/4000/35729, sinta-se a vontade para mudar diretamente no script.
+Faça o clone do projeto e execute o script para subir o servidor. Por padrão o servidor ira subir nas portas
+80/4000/35729.
 
 ### Pré-requisitos
 
@@ -35,19 +34,19 @@ Esse template já totalmente configurado, basta fazer o clone dele na sua maquin
 
 ### Instalação
 
-1 -  Clone o repositorio
+1 - Clone o repositorio
 
 ```sh
-git clone https://github.com/medeirosinacio/jekyll-bootstrap-github-pages.git
+git clone https://github.com/dumptecnologia/dump.tec.br.git
 ```
 
-2 -  Execute o script bash para subir o servidor local
+2 - Execute o script bash para subir o servidor local
 
 ```sh
 ./server.sh
 ```
 
-3 - O servidor estara disponivel em seu ambiente local
+3 - O servidor estará disponível no seu ambiente local
 
 > [http://localhost/index.html](http://localhost/index.html)
 
