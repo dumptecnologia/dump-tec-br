@@ -1,4 +1,26 @@
-// Resets for body and html height for sticky footer
+:root {
+  --color-dark-orange: #FE8900;
+  --color-lightning-yellow: #FEA133;
+  --color-persimmon: #DD6200;
+}
+
+.color-dark-orange {
+  color: var(--color-dark-orange);
+}
+
+.color-lightning-yellow {
+  color: var(--color-lightning-yellow);
+}
+
+.color-persimmon {
+  color: var(--color-persimmon);
+
+}
+
+.color-transparent {
+  color: transparent !important;
+}
+
 body,
 html {
   height: 100%;
