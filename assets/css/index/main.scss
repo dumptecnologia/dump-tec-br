@@ -6,7 +6,7 @@ main {
 main h2 {
   font-family: "Domine", sans-serif;
   font-weight: bold;
-  font-size: 5.5rem;
+  font-size: 5rem;
 }
 
 main p {
@@ -35,23 +35,77 @@ main p span.text {
 }
 
 main .main-end-menu {
-  margin-right: -120px;
+  margin-right: -43px;
+  width: 280px;
+  float: right;
 }
 
 main .main-end-menu li {
-  background-color: #0000006e;
+  background-color: transparent !important;
+  background-image: url("/assets/images/bg-transparent.png") !important;
+  background-image: url("/assets/images/bg-transparent-hover.png");
+  background-repeat: repeat;
+  background-size: auto;
   color: white;
-  padding: 1.4rem 1rem;
+  padding: 1rem;
   margin-bottom: 2px;
+  transition: background-image 0.3s ease;
 }
 
-main .main-end-menu li span{
+main .main-end-menu li:hover {
+  background-image: url("/assets/images/bg-transparent-hover.png") !important;
+  cursor: pointer;
+}
+
+main .main-end-menu li span {
   font-size: 0.9rem;
   color: #8e8e8e;
 }
 
-main .main-end-menu li i{
-  font-size: 0.5rem;
-  padding-right: 5px;
+main .main-end-menu li i {
+  font-size: 0.4rem;
+  padding-right: 15px;
   color: var(--color-dark-orange);
+  margin-top: 7px;
+  float: left;
+}
+
+@include media-breakpoint-down(xxl) {
+
+  main h2 {
+    font-size: 4.3rem;
+  }
+
+  main p span.text {
+    font-size: 1.8rem !important;
+  }
+
+  main p span.bar {
+    width: 60px;
+  }
+
+}
+
+@include media-breakpoint-down(xl) {
+
+  main h2 {
+    font-size: 4rem;
+  }
+
+  main p span.text {
+    font-size: 1.5rem !important;
+  }
+
+  main p span.bar {
+    width: 50px;
+  }
+
+  main .main-end-menu {
+    margin-right: -60px;
+  }
+
+  main p span.bar span {
+    height: 0.95rem;
+  }
+
 }
