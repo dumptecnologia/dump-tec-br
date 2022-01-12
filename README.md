@@ -16,7 +16,7 @@ O repositório das fontes do site da Dump Tecnologia!
 - [Jekyll Minifier](https://github.com/Mendeo/jekyll-minifier) para compilação de HTML, CSS e JS;
 - Efeitos de uma Landing Page com [AOS library](https://michalsnik.github.io/aos/)
 - Configurações [globais](./_config.yml) de variáveis, diretórios e arquivos;
-- Um [bashscript](./server.sh) para subir localmente seu projeto via Docker;
+- Um [bashscript](./build-and-up.sh) para subir localmente seu projeto via Docker;
 - Blog com paginação dinâmica, tags e categorias;
 - Contagem de visualizações/curtidas com [CountAPI](https://countapi.xyz/);
 - Sistema de comentários com [Disqus](https://disqus.com/);
@@ -34,7 +34,7 @@ Faça o clone do projeto e execute o script para subir o servidor. Por padrão o
 
 ### Instalação
 
-1 - Clone o repositorio
+1 - Clone o repositório
 
 ```sh
 git clone https://github.com/dumptecnologia/dump.tec.br.git
@@ -43,7 +43,7 @@ git clone https://github.com/dumptecnologia/dump.tec.br.git
 2 - Execute o script bash para subir o servidor local
 
 ```sh
-./server.sh
+./build-and-up.sh
 ```
 
 3 - O servidor estará disponível no seu ambiente local
