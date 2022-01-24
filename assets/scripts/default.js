@@ -3,7 +3,7 @@ function startPage() {
         document.getElementById('load-page-container').remove();
         AOS.init({
             duration: 400,
-            easing: 'ease-in-out',
+            easing: 'ease-in-out'
         });
     }
 

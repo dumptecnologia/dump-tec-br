@@ -24,8 +24,16 @@
 body,
 html {
   height: 100%;
-  overflow-x: hidden;
   font-family: Metropolis, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body section .section-header-title {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  color: #fe8900;
+  margin-bottom: 2.1rem;
 }
 
 .text-inherit {

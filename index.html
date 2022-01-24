@@ -1,38 +1,9 @@
 ---
 layout: default
 ---
-<main class="w-100 h-100vh bg-dark text-light py-5">
-    <div class="row col w-100 h-85vh align-items-center justify-content-end">
-        <div class="col-11 col-lg-9 col-xl-8">
-            <h2 class="mb-4">
-                Olá pessoal, somos a <br>
-                Dump Tecnologia.
-            </h2>
-            <p>
-                <span class="bar">
-                    <span>&ensp;</span>
-                </span>
-                <span class="fs-2 text">
-                    Criamos soluções impressionantes em tecnologia <br>
-                    que ajudarão a sua empresa a se destacar.
-                </span>
-            </p>
-        </div>
-        <div class="col-2 text-start d-none d-lg-flex">
-            <ul class="main-end-menu list-group">
-                <li class="list-group-item">
-                    <i class="bi bi-circle-fill"></i>Sobre<br>
-                    <i class="bi bi-circle-fill color-transparent"></i><span>quem somos</span>
-                </li>
-                <li class="list-group-item">
-                    <i class="bi bi-circle-fill"></i>Serviços<br>
-                    <i class="bi bi-circle-fill color-transparent"></i><span>o que fazemos</span>
-                </li>
-                <li class="list-group-item">
-                    <i class="bi bi-circle-fill"></i>Contato<br>
-                    <i class="bi bi-circle-fill color-transparent"></i><span>como conversamos</span>
-                </li>
-            </ul>
-        </div>
-    </div>
-</main>
+
+{% include sections/index-main.html %}
+{% include sections/about-us.html %}
+{% include sections/github-projects.html %}
+{% include sections/what-we-do.html %}
+{% include sections/contact-us.html %}
