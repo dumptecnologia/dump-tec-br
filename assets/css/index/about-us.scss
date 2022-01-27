@@ -31,3 +31,26 @@
   border-left: 1px solid #ccc;
   padding: 1rem;
 }
+
+@media (max-width: 575.98px) { 
+  
+  .about-us-header  {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  .about-us-header .description {
+    text-align: justify;
+  }
+  .about-us-display-1 {
+    display: block;
+    padding: 1rem;
+  }
+  .about-us-display-2 {
+    display: block;
+    margin: 2rem 1rem;
+  }
+  .github-split {
+    display: block;
+    text-align: center;
+  }
+ }
