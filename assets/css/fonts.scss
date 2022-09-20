@@ -1,197 +1,29 @@
 @font-face {
-  font-family: 'Metropolis';
-  src: url('../fonts/Metropolis/Metropolis-LightItalic.woff2') format('woff2'),
-  url('../fonts/Metropolis/Metropolis-LightItalic.woff') format('woff');
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
+  font-family: "Lato Regular";
+  src: url("../fonts/Lato/Lato-Regular.ttf") format('truetype');
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: url('../fonts/Metropolis/Metropolis-BoldItalic.woff2') format('woff2'),
-  url('../fonts/Metropolis/Metropolis-BoldItalic.woff') format('woff');
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Medium.ttf") format('truetype');
 }
 
 @font-face {
-  font-family: 'Metropolis Extra';
-  src: url('../fonts/Metropolis/Metropolis-ExtraBold.woff2') format('woff2'),
-  url('../fonts/Metropolis/Metropolis-ExtraBold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
+  font-family: "Lato Semibold";
+  src: url("../fonts/Lato/Lato-Semibold.ttf") format('truetype');
 }
 
 @font-face {
-  font-family: 'Metropolis Extra';
-  src: url('../fonts/Metropolis/Metropolis-ExtraLightItalic.woff2') format('woff2'),
-  url('../fonts/Metropolis/Metropolis-ExtraLightItalic.woff') format('woff');
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
+  font-family: "Lato Bold";
+  src: url("../fonts/Lato/Lato-Bold.ttf") format('truetype');
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: url('../fonts/Metropolis/Metropolis-Light.woff2') format('woff2'),
-  url('../fonts/Metropolis/Metropolis-Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
+  font-family: "Lato Black";
+  src: url("../fonts/Lato/Lato-Black.ttf") format('truetype');
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: url('../fonts/Metropolis/Metropolis-Bold.woff2') format('woff2'),
-  url('../fonts/Metropolis/Metropolis-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Metropolis Extra';
-  src: url('../fonts/Metropolis/Metropolis-ExtraLight.woff2') format('woff2'),
-  url('../fonts/Metropolis/Metropolis-ExtraLight.woff') format('woff');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Metropolis';
-  src: url('../fonts/Metropolis/Metropolis-Black.woff2') format('woff2'),
-  url('../fonts/Metropolis/Metropolis-Black.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Metropolis';
-  src: url('../fonts/Metropolis/Metropolis-BlackItalic.woff2') format('woff2'),
-  url('../fonts/Metropolis/Metropolis-BlackItalic.woff') format('woff');
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Metropolis Extra';
-  src: url('../fonts/Metropolis/Metropolis-ExtraBoldItalic.woff2') format('woff2'),
-  url('../fonts/Metropolis/Metropolis-ExtraBoldItalic.woff') format('woff');
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Metropolis';
-  src: url('../fonts/Metropolis/Metropolis-MediumItalic.woff2') format('woff2'),
-  url('../fonts/Metropolis/Metropolis-MediumItalic.woff') format('woff');
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Metropolis Semi';
-  src: url('../fonts/Metropolis/Metropolis-SemiBold.woff2') format('woff2'),
-  url('../fonts/Metropolis/Metropolis-SemiBold.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Metropolis';
-  src: url('../fonts/Metropolis/Metropolis-RegularItalic.woff2') format('woff2'),
-  url('../fonts/Metropolis/Metropolis-RegularItalic.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Metropolis';
-  src: url('../fonts/Metropolis/Metropolis-Thin.woff2') format('woff2'),
-  url('../fonts/Metropolis/Metropolis-Thin.woff') format('woff');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Metropolis Semi';
-  src: url('../fonts/Metropolis/Metropolis-SemiBoldItalic.woff2') format('woff2'),
-  url('../fonts/Metropolis/Metropolis-SemiBoldItalic.woff') format('woff');
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Metropolis';
-  src: url('../fonts/Metropolis/Metropolis-Medium.woff2') format('woff2'),
-  url('../fonts/Metropolis/Metropolis-Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Metropolis';
-  src: url('../fonts/Metropolis/Metropolis-ThinItalic.woff2') format('woff2'),
-  url('../fonts/Metropolis/Metropolis-ThinItalic.woff') format('woff');
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Metropolis';
-  src: url('../fonts/Metropolis/Metropolis-Regular.woff2') format('woff2'),
-  url('../fonts/Metropolis/Metropolis-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Domine';
-  src: url('../fonts/Domine/Domine-Medium.woff2') format('woff2'),
-  url('../fonts/Domine/Domine-Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Domine';
-  src: url('../fonts/Domine/Domine-Bold.woff2') format('woff2'),
-  url('../fonts/Domine/Domine-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Domine';
-  src: url('../fonts/Domine/Domine-Regular.woff2') format('woff2'),
-  url('../fonts/Domine/Domine-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Domine';
-  src: url('../fonts/Domine/Domine-SemiBold.woff2') format('woff2'),
-  url('../fonts/Domine/Domine-SemiBold.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
+  font-family: "Lato Light";
+  src: url("../fonts/Lato/Lato-Light.ttf") format('truetype');
 }
